@@ -31,7 +31,7 @@ For every chapter of the lecture notes "Vector- and function spaces", this docum
 * Structure preserving map $=$ homomorphism, isomorphism, endomorphism, automorphism group
 * Permutation, parity or signature of permutation
 * Vector space, linear combination, linear span, complete set, linear independence, basis, dimension, coordinates (coordinate isomorphism)
-* Subspace, disjoint subspaces, direct sum, complement, codimension, quotient space, 
+* Subspace, disjoint subspaces, direct sum, complement, codimension, quotient space,
 * Algebra, commutator
 
 **Lemmas, propositions and theorems:**
@@ -114,12 +114,12 @@ Particularly important are:
 No proofs from Chapter 4. Nonetheless important
 
 * In a metric complete vector space (=Banach space)
-  
+
   - Cauchy sequence $\iff$ convergent sequence
   - Absolutely convergent series $\implies$ convergent series
 
 * Finite-dimensional vector spaces:
-  
+
   - all norms are equivalent
   - always metric complete
   - finite-dimensional subspaces are always closed
@@ -170,3 +170,37 @@ Important passive proofs:
 * Theorem 5.23: expansion theorem
 * Theorem 5.27: Riesz representation theorem
 
+**For applications / exercises**
+
+* Computing inner products, applying Gram-Schmidt (e.g. with custom inner products or between functions in a function space)
+* Knowing and using the properties of Hermitian and normal operators
+
+## 6. Unitary similarity and unitary equivalence
+
+Chapter 6 discusses some of the common matrix decompositions in finite-dimensional linear algebra. A significant fraction of the material deals with algorithmic details and remarks, and serves as background for or addition to e.g. Python for Scientists. It is not of high importance for either the theory or exercises of this course. However, some of the main theorems regarding Schur decomposition and singular value decomposition are important.
+
+**Important concepts:**
+
+* Unitary and orthogonal group
+* Discrete Fourier transform as unitary transformation and circulant matrices
+* Schur decomposition and its relation to eigenvalue decomposition for normal matrices
+* Canonical form of a bilinear map, intertia or signature
+* Singular value decomposition: full, thin and compact; relation to rank, operator norm, condition number; applicability in the context of least squares solution (pseudo-inverse) and low rank approximations
+
+**Lemmas, propositions, theorems:**
+
+Important active proofs:
+
+* Theorem 6.3: Schur decomposition
+* Proposition 6.4: Normal matrices and Schur decomposition
+* Proposition 6.6: Canonical form for congruence
+* Proposition 6.8: Singular value decomposition (also remark 6.9 for its relation to eeigenvalue / Schur decomposition)
+* Proposition 6.9: SVD and rank
+* Proposition 6.10: SVD and operator norm
+* Proposition 6.11: SVD and Frobenius norm
+* Proposition 6.12: SVD and condition number
+* Theorem 6.14: SVD and low rank approximation
+
+Important active proofs:
+
+* Proposition 6.13: SVD and minimum norm least squares solution
