@@ -147,6 +147,7 @@ No proofs from Chapter 4. Nonetheless important
 Chapter 5 contains some of the most important theorems and propositions (Cauchy-Schwarz inequality, orthogonal projection theorem, expansion theorem, …). The corresponding proofs are often short and constructive. Shorter proofs need to be known actively, longer proofs passively.
 
 Important active proofs:
+
 * Theorem 5.2: Cauchy-Schwarz inequality
 * Corollary 5.3: inner product norm
 * Proposition 5.5: parallellogram law
@@ -162,6 +163,7 @@ Important active proofs:
 * Proposition 5.37, corollary 5.38 and 5.39: more properties of normal operators
 
 Important passive proofs:
+
 * Theorem 5.6: polarisation identity
 * Theorem 5.13: orthogonal projection
 * Theorem 5.16: orthogonal projectors and direct sum
