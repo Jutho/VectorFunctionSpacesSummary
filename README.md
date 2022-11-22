@@ -128,3 +128,43 @@ No proofs from Chapter 4. Nonetheless important
 * Bounded linear maps with operator norm are metric complete
 * Operator norm is subordinate and submultiplicative
 * Gelfand formula for spectral radius
+
+## 5. Inner products and orthogonality
+
+**Important concepts:**
+
+* Bilinear form, sesquilinear form, quadratic form, symmetric and Hermitian, degenerate, positive (semi)definite versus indefinite, matrix congruence (= basis transform for bilinear forms)
+* Inner product, standard/Euclidean inner product (in $\mathbb{C}^n$, in $\ell^2$, in $L^2$), metric/Gram matrix, inner product norm, Hilbert space
+* Orthogonality, orthonormal set, orthogonal complement, orthogonal projection, orthogonal direct sum decomposition, orthogonal projector
+* Orthonormal basis, Plancherel/Parseval identity, Gram-Schmidt orthonormalisation, QR decomposition
+* (Anti)-isomorphism between dual space (= bounded linear functionals) and original Hilbert space
+* Bounded linear maps, operator norm expressed using inner product, bounded linear maps have closed kernels
+* Adjoint of a linear map, self-adjoint operators, isometric and unitary maps, normal operator
+* Least squares solution, Moore-Penrose pseudoinverse
+
+**Lemmas, propositions, theorems:**
+
+Chapter 5 contains some of the most important theorems and propositions (Cauchy-Schwarz inequality, orthogonal projection theorem, expansion theorem, …). The corresponding proofs are often short and constructive. Shorter proofs need to be known actively, longer proofs passively.
+
+Important active proofs:
+* Theorem 5.2: Cauchy-Schwarz inequality
+* Corollary 5.3: inner product norm
+* Proposition 5.5: parallellogram law
+* Proposition 5.7 + corollary 5.8: linear independence of orthogonal vectors
+* Theorem 5.9: Pythagoras
+* Lemma 5.21 and resulting from that Lemma 5.22: constructing orthogonal projection, Bessel's inequality
+* Proposition 5.28: construction of the adjoint
+* Proposition 5.29
+* Proposition 5.30: relation between kernels and images of a map and its adjoint via orthogonal complements
+* Proposition 5.31: characterisation of an linear isometry
+* Proposition 5.34: characterisation of a normal operator
+* Corollary 5.35 and 5.36: structure of eigenvalues and eigenvectors of normal operators
+* Proposition 5.37, corollary 5.38 and 5.39: more properties of normal operators
+
+Important passive proofs:
+* Theorem 5.6: polarisation identity
+* Theorem 5.13: orthogonal projection
+* Theorem 5.16: orthogonal projectors and direct sum
+* Theorem 5.23: expansion theorem
+* Theorem 5.27: Riesz representation theorem
+
