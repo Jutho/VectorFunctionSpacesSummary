@@ -223,7 +223,7 @@ Chapter 7 discusses some of the practicalities and issues related to working wit
 
   - The point spectrum: actual eigenvalues $\lambda$ with normalizable eigenvectors $v$: $\hat{A} v = \lambda v$
   - The continuous spectrum: values $\lambda$ for which we can find approximate eigenvectors, but no exact eigenvectors that we can properly normalize; we can find $v_\epsilon$ such that $\lVert \hat{A} v_\epsilon - \lambda v_\epsilon \rVert < \epsilon$ for all $\epsilon>0$, but the limit $\epsilon \to 0$ of $v_\epsilon$ is not well defined
-  - The residual spectrum: very unintuitive and related to the fact that, on infinite-dimensional Hilbert spaces $\nu(\hat{A})$ (dimension of the kernel) and $\nu(\hat{A}^\dagger)$ do not need to be the same; the residual spectrum consists of values $\lambda$ for which no eigenvectors or approximate eigenvectors exist, but for which $\overline{\lambda}$ is in the point spectrum or continuous spectrum of $\hat{A}^\dagger$. 
+  - The residual spectrum: very unintuitive and related to the fact that, on infinite-dimensional Hilbert spaces $\nu(\hat{A})$ (dimension of the kernel) and $\nu(\hat{A}^\dagger)$ do not need to be the same; the residual spectrum consists of values $\lambda$ for which no eigenvectors or approximate eigenvectors exist, but for which $\overline{\lambda}$ is in the point spectrum or continuous spectrum of $\hat{A}^\dagger$.
 
 * For a self adjoint operator, the residual spectrum is empty, and the point spectrum and continuous spectrum only contain real numbers.
 
@@ -236,8 +236,7 @@ Important active proofs:
 * Proposition 7.10 (Cristoffel-Darboux formule zeker niet vanbuiten kennen)
 * Proposition 7.11
 
-
-Voor de volgende: de relaties tussen de Fourier coefficienten moet je kunnen aantonen, dit is steeds een eenvoudige berekening. De technische voorwaarden op de functies $f$ of rij van Fourier-coefficiënten $(\widehat{f}_k)$ waarvoor de eigenschap geldt moet je niet kennen.
+For the next proposition on properties of the Fourier coefficients: proving the relation that the Fourier coefficients satisfy is an easy calculation, which you should be able to actively do. You do not need to know the technical conditions under which these manipulations are allowed, and which requirements they impose on the function $f$ or the Fourier coefficients $(\widehat{f}_k)$.
 
 * Proposition 7.17
 * Proposition 7.19
@@ -250,3 +249,41 @@ Voor de volgende: de relaties tussen de Fourier coefficienten moet je kunnen aan
 * Deriving relations of specific families orthogonal polynomials, e.g. deriving orthonormalization relation or recurrence relation from generating function.
 * Computing simple Fourier coefficients using the elementary properties
 
+## 8. Linear differential operators
+
+This chapter provides an in-depth study of differential operators, and their role in the study of linear differential equations with boundary conditions.
+
+**Important concepts:**
+
+* Homogeneous and inhomogeneous (linear) differential equation, homogeneous and inhomogeneous boundary conditions, formal adjoint of a linear differential operator, Sturm-Liouville operator, separated boundary conditions.
+* A $p$th order differential equation is well balanced (likely to have a solution that exists and is unique for any right hand side) if it has exactly $p$ boundary conditions; this is a necessary but not sufficient condition. Having $p$ boundary conditions is also necessary (but not sufficient) to be a self-adjoint operator.
+* Initial value problem, fundamental matrix solution, time-ordered exponential, Wronskian, Floquet theorem
+* Boundary value problem, Dirichlet and Neumann conditions for second order problems, Green's function, Green's operator as inverse of differential operator
+* Sturm-Liouville eigenvalue problems: a regular Sturm-Liouville operator admits a spectral decompositoin where the eigenvectors provide a complete orthonormal basis for the Hilbert space, and can thus be used to compute e.g. the exponential or inverse (= Green's function) (Remark 8.31 and 8.32)
+
+**Lemmas, propositions, theorems:**
+
+Important active proofs:
+
+* Proposition 8.3 and Corollary 8.4 (it is sufficient if you can prove this for the case $p=2$)
+* Proposition 8.5 and Corollary 8.6
+* Constructing the bilinear concomitant of the Sturm-Liouville operator (eq 8.30)
+* Verifying that it is self-adjoint with respect to separated or periodic boundary conditions.
+* Lemma 8.12
+* Theorem 8.13
+* Proposition 8.14
+* Proposition 8.15
+* Proposition 8.16
+* Proposition 8.17
+* Theorem 8.18
+
+Important passive proofs:
+Proposition 8.9 and its generalisation to the inhomogeneous case, Proposition 8.19
+
+No theorems beyond subsection 8.2.4; you need to understand examples and use the concepts (see above) in exercises.
+
+**For applications / exercises**
+
+* Be able to apply the Frobenius method, in particular for second order problems (Remarks 8.25 and 8.26). In particular, this requires that you can recognize/identify a regular singular point, and that you can derive the indicial equation. Also applying the simpler version (a Taylor series ansatz) when there is no singular point (coefficient of highest derivative is strictly positive)
+
+* Understand how to use a Green's function, and how to construct it in the case of a second order problem with separated boundary conditions (p305)
