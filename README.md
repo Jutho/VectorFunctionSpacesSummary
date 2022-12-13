@@ -278,7 +278,8 @@ Important active proofs:
 * Theorem 8.18
 
 Important passive proofs:
-Proposition 8.9 and its generalisation to the inhomogeneous case, Proposition 8.19
+
+* Proposition 8.9 and its generalisation to the inhomogeneous case, Proposition 8.19
 
 No theorems beyond subsection 8.2.4; you need to understand examples and use the concepts (see above) in exercises.
 
@@ -286,4 +287,38 @@ No theorems beyond subsection 8.2.4; you need to understand examples and use the
 
 * Be able to apply the Frobenius method, in particular for second order problems (Remarks 8.25 and 8.26). In particular, this requires that you can recognize/identify a regular singular point, and that you can derive the indicial equation. Also applying the simpler version (a Taylor series ansatz) when there is no singular point (coefficient of highest derivative is strictly positive)
 
-* Understand how to use a Green's function, and how to construct it in the case of a second order problem with separated boundary conditions (p305)
+* Understand how to use a Green's function, and how to construct it in the case of a second order problem with separated boundary conditions (p305). Actually, no exercises were made on this in class due to lack of time, so there is only the example in the theory section, and the exercise exam will not contain questions about this.
+
+## 9. Fourier transforms and distributions
+
+This chapter introduces the Fourier transform, first in the classical sense (as a unitary operator on $L^2(\bbR)$). Then, the main concepts from the theory of distributions is introduced, which provides the mathematical framework for working with 'generalised functions' such as the Dirac delta 'function'. Within the setting of distributions, we can significantly extend the concept of derivatives, limits, series and Fourier transforms beyond their classical meaning, and we provide several examples of this. Finally, we revisit the different types of Fourier transforms and introduce a fourth type that combines very naturally with the three types that we have already seen. Then, we find various relations between these different types, in which the use of distributions plays a prominent role.
+
+Sections 9.2.11 and 9.3.4 have only been briefly covered in class, 9.3.5 and 9.4 have not been covered at all. None of those need to be known for the exam.
+
+**Important concepts:**
+
+* Fourier transform, convolution, Fourier transform as unitary operator on $L^2(\bbR)$, Parseval and Plancherel relation for Fourier transform
+* Fourier transform of Gaussian distribution, characteristic function
+* Test function, compact support, distribution, regular versus singular distribution, Dirac-delta distribution (and its derivatives), Heaviside function/distribution, Cauchy principal value, distributional derivative, distributional limit, distributional Fourier series and Fourier transform
+* Fourier transforms on different domains: discrete Fourier transform, Fourier series, discrete-time Fourier transform, (continuous-time) Fourier transform.
+* Sampling, Nyquist rate, reconstruction via sinc (Whittaker–Shannon interpolation formula). 
+
+**Lemmas, propositions, theorems:**
+
+For most of this chapter, no technical aspects of the theorems or proofs need to be known.
+
+What you need to know is:
+
+* Properties of Fourier transform: Proposition 9.1, Theorem 9.3 (convolution), Proposition 9.4 (derivative)
+* Using the definition of translation, scaling, derivative, coordinate transform, limit of distributions on examples:
+  Examples 9.9, 9.10, 9.11, 9.12, 9.13, 9.14, 9.15, 9.16, 9.17, 9.19
+* Theorem 9.15 (given the structure of the complex logarithm and the distributional derivative of $\log |x|$)
+* Using Proposition 9.16 (Dirac sequence) on examples such as Example 9.20, 9.21, 9.22
+* Passive understanding of 9.2.5 (Cauchy Principal Value) and 9.2.9 (Dirac Comb distribution)
+* Fourier transform of distributions on examples: Example 9.23, 9.24
+* Theorem 9.18 (Poisson summation formula) given Dirac Comb distribution
+* Sampling: proving proposition 9.20, corollary 9.21 and proposition 9.22.
+
+**For applications / exercises**
+
+Unfortunately, we did not have time for further exercises on this chapter. 
