@@ -291,13 +291,13 @@ No theorems beyond subsection 8.2.4; you need to understand examples and use the
 
 ## 9. Fourier transforms and distributions
 
-This chapter introduces the Fourier transform, first in the classical sense (as a unitary operator on $L^2(\bbR)$). Then, the main concepts from the theory of distributions is introduced, which provides the mathematical framework for working with 'generalised functions' such as the Dirac delta 'function'. Within the setting of distributions, we can significantly extend the concept of derivatives, limits, series and Fourier transforms beyond their classical meaning, and we provide several examples of this. Finally, we revisit the different types of Fourier transforms and introduce a fourth type that combines very naturally with the three types that we have already seen. Then, we find various relations between these different types, in which the use of distributions plays a prominent role.
+This chapter introduces the Fourier transform, first in the classical sense (as a unitary operator on $L^2(\mathbb{R})$). Then, the main concepts from the theory of distributions is introduced, which provides the mathematical framework for working with 'generalised functions' such as the Dirac delta 'function'. Within the setting of distributions, we can significantly extend the concept of derivatives, limits, series and Fourier transforms beyond their classical meaning, and we provide several examples of this. Finally, we revisit the different types of Fourier transforms and introduce a fourth type that combines very naturally with the three types that we have already seen. Then, we find various relations between these different types, in which the use of distributions plays a prominent role.
 
 Sections 9.2.11 and 9.3.4 have only been briefly covered in class, 9.3.5 and 9.4 have not been covered at all. None of those need to be known for the exam.
 
 **Important concepts:**
 
-* Fourier transform, convolution, Fourier transform as unitary operator on $L^2(\bbR)$, Parseval and Plancherel relation for Fourier transform
+* Fourier transform, convolution, Fourier transform as unitary operator on $L^2(\mathbb{R})$, Parseval and Plancherel relation for Fourier transform
 * Fourier transform of Gaussian distribution, characteristic function
 * Test function, compact support, distribution, regular versus singular distribution, Dirac-delta distribution (and its derivatives), Heaviside function/distribution, Cauchy principal value, distributional derivative, distributional limit, distributional Fourier series and Fourier transform
 * Fourier transforms on different domains: discrete Fourier transform, Fourier series, discrete-time Fourier transform, (continuous-time) Fourier transform.
@@ -309,7 +309,8 @@ For most of this chapter, no technical aspects of the theorems or proofs need to
 
 What you need to know is:
 
-* Properties of Fourier transform: Proposition 9.1, Theorem 9.3 (convolution), Proposition 9.4 (derivative)
+* Properties of Fourier transform: Proposition 9.1, Theorem 9.3 (convolution), Proposition 9.4 (derivative) (no technical requirements on $f$ or $\widehat{f}$)
+* Computing Fourier transform of Gaussian distribution, passive understanding of proving central limit theorem
 * Using the definition of translation, scaling, derivative, coordinate transform, limit of distributions on examples:
   Examples 9.9, 9.10, 9.11, 9.12, 9.13, 9.14, 9.15, 9.16, 9.17, 9.19
 * Theorem 9.15 (given the structure of the complex logarithm and the distributional derivative of $\log |x|$)
