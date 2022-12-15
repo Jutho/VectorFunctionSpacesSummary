@@ -13,13 +13,25 @@ language: en
 
 For every chapter of the lecture notes "Vector- and function spaces", this document lists the following items:
 
-1. Important concepts: these mostly correspond to definitions, sometimes the definition is hidden inside a proposition or theorem. You do not need to know the literal definition, but you should be able to understand and use this term or concept correctly
+1. A brief summary
 
-2. Important theorems and propositions: it is indicated which proofs need to be known (actively) or understood
+2. Not covered in class: sections which we have not or only briefly covered, and are not part of the exam (neither theory nor exercise). This corresponds to (subsections) that (should) have a ($\star$) indicator in the lecture notes.
 
-3. Additional topics for applications / exercises: what you need to know for the exercises, in particular if it is additional material that you do not need to know for theory
+3. Important concepts: these mostly correspond to definitions, sometimes the definition is hidden inside a proposition or theorem. You do not need to know the literal definition, but you should be able to understand and use this term or concept correctly, both for theory and exercise.
+
+4. Important theorems and propositions: list of proofs that need to be known (actively) or understood (passively) for the theory exam
+
+5. Additional topics for applications / exercises: what you need to know for the exercises, in particular if it is additional material that you do not need to know for theory
 
 ## 1. Elementary algebraic structures
+
+**Summary:**
+
+This chapter lists the basic mathematical structures and terminology that we will need and use, and doing so, also specifies the convention and notations that we will use for those. This should be almost completely repition; there will be no direct theory questions about this, but you should of course be able to use and understand this terminology
+
+**Not convered in class:**
+
+Section 1.2.4 was barely covered in class. The definition of the kernel of a group homomorphism generalised to the kernel of a vector space homomorphism (=linear map). The concept of a normal subgroup and a quotient group also generalise to that of a subspace and a quotient space, because a vector space is an abelian group with respect to vector addition. We have not at all discussed exact sequences.
 
 **Important concepts:**
 
@@ -41,6 +53,14 @@ No proofs from Chapter 1
 **For applications / exercises**
 
 ## 2. Linear maps and matrices
+
+**Summary:**
+
+This chapter discusses general properties of vector space homomorphisms = linear maps, and in particular their representation as matrices in the case of finite-dimensional vector spaces. Most of this chapter should be repition, some parts are probably new (linear functionals and dual space, antilinear maps, determinants and inverses of block matrices). You need to be able to use the concepts from this chapter (for exercises and further theory), but there will not be any direct questions about it on the theory exam.
+
+**Not covered in class:**
+
+Section 2.5.4 (Double dual space) and Section 2.7.3 (Conjugate vector space) have not been covered in class.
 
 **Important concepts:**
 
@@ -67,6 +87,14 @@ No proofs from Chapter 2. Nonetheless important:
 * Using Guassian elemination, Schur complements, Sherman-Morrison-Woodbury formula
 
 ## 3. Linear operators and eigenvalues
+
+**Summary:**
+
+This chapter discusses general properties of vector space endomorphisms = linear operators = linear maps from a vector space to itself. Operators can be composed with themselves, giving rise to powers and polymials. This is important to then also introduce eigenvalues and eigenvectors, and finally, to generalise arbitrary scalar functions ($f:\mathbb{C}\to \mathbb{C}$) to operators/square matrices. Parts of this will be repition (projectors, eigenvalues, ...), other parts will be new (generalised eigenspaces, Jordan form, functions of operators).
+
+**Not covered in class:**
+
+Section 3.3.3 (Derivatives of matrix functions) was not covered in class.
 
 **Important concepts:**
 
@@ -100,6 +128,14 @@ Particularly important are:
 
 ## 4. Norms and distances
 
+**Summary:**
+
+This chapter introduces the concept of a norm, and then discusses at length how this can be used to make sense of limits of sequences of vectors, mostly in infinite-dimensional vector spaces, where there are some surprises and not everything is very intuitive. Then, we discuss the implications for linear maps on such normed vector spaces. Most of the proofs are very technical; none of them need to be known for the exam. However, some important concepts are important for the remainder of the course (especially the theory-part).
+
+**Not covered in class:**
+
+Section 4.4.3 was not covered in class. If you want some theoretical background about Markov chains and the Google PageRank algorithm, feel free to read ;-).
+
 **Important concepts:**
 
 * Norm, Hölder p-norm
@@ -111,7 +147,7 @@ Particularly important are:
 
 **Lemmas, propositions, theorems:**
 
-No proofs from Chapter 4. Nonetheless important
+No proofs from Chapter 4. The following insights are nonetheless important:
 
 * In a metric complete vector space (=Banach space)
 
@@ -124,12 +160,23 @@ No proofs from Chapter 4. Nonetheless important
   - always metric complete
   - finite-dimensional subspaces are always closed
 
+* Infinite-dimensional proper subspaces of a Banach space can be dense: there is no intuitive or visual way to interpret this concept, there are vectors which are not in this subspace, but nonetheless they are arbitrary close to it (measured using the norm of the surrounding vector space). In a Hilbert space (next chapter), this means in particular that no vector can be made orthogonal to a dense subspace, since a unit vector that is orthogonal to a subspace has at least distance 1 to any vector in that subspace.
+
 * Linear maps are continuous if and only if bounded
 * Bounded linear maps with operator norm are metric complete
 * Operator norm is subordinate and submultiplicative
 * Gelfand formula for spectral radius
 
+**For applications / exercises**
+* Computing a norm. But this chapter is mostly there for theoretical purposes.
+
 ## 5. Inner products and orthogonality
+
+**Summary:**
+
+This important chapter introduces the concept of an inner product and the structures that follows from it, notabily, the concept of orthogonality and orthogonal projections. In particular, working with a basis in an infinite-dimensional vector space becomes more easy with an inner product (and associated norm) instead of "just a norm", when using orthogonality. In a Hilbert space (=metric complete inner product space), a set of vectors that is complete (the linear span defines a dense subspace) can be turned into an orthonormal set (using Gram-Schmidt) which then defines a basis (expansion theorem). Linear maps and linear operators between Hilbert spaces can also have more structure. Bounded linear functionals (elements from the dual space) are one-to-one associated with vectors in the primal space via the inner product. Bounded linear maps have adjoints. Linear operators can satisfy relations with their adjoint, e.g. they can be equal (self-adjoint), the adjoint can be the inverse (unitary) or they can commute with the adjoint (normal), which then imposes particular constraints on the spectrum and the eigenvectors. On the practical side, the orthogonal projection allows to construct least square solutions to overdetermined systems.
+
+**Not covered in class:**
 
 **Important concepts:**
 
@@ -177,7 +224,13 @@ Important passive proofs:
 
 ## 6. Unitary similarity and unitary equivalence
 
+**Summary:**
+
 Chapter 6 discusses some of the common matrix decompositions in finite-dimensional linear algebra. A significant fraction of the material deals with algorithmic details and remarks, and serves as background for or addition to e.g. Python for Scientists. It is not of high importance for either the theory or exercises of this course. However, some of the main theorems regarding Schur decomposition and singular value decomposition are important.
+
+**Not covered in class:**
+
+Subsections 6.4.4 (practical considerations regarding Schur decomposition) and 6.6.6 (polar decomposition) as well as Section 6.7 (Krylov methods) were not covered in class.
 
 **Important concepts:**
 
@@ -207,9 +260,9 @@ Important passive proofs:
 
 ## 7. Function spaces
 
-Chapter 7 discusses some of the practicalities and issues related to working with functions spaces. It is mostly there to raise some awareness about these issues. The practical aspects are situated in Section 7.3 (properties of orthogonal polynomials) and parts of Section 7.4 (elementary properties of Fourier coefficients / Fourier series in 7.4.1, also Proposition 7.24 and 7.27 in section 7.4.3; relation with Discrete Fourier Transform in 7.4.5). All other (sub)sections are there as background material to raise some awareness about potential issues, and do not require an active understanding.
-
 **Summary / Important concepts:**
+
+Chapter 7 discusses some of the practicalities and issues related to working with functions spaces. It is mostly there to raise some awareness about these issues. The practical aspects are situated in Section 7.3 (properties of orthogonal polynomials) and parts of Section 7.4 (elementary properties of Fourier coefficients / Fourier series in 7.4.1, also Proposition 7.24 and 7.27 in section 7.4.3; relation with Discrete Fourier Transform in 7.4.5). All other (sub)sections are there as background material to raise some awareness about potential issues, and do not require an active understanding.
 
 * Function spaces can be given a proper norm and, for L^2, an inner product. The non-trivial step involves `identifying' functions that are equal almost everywhere, as one and the same (technically, working with equivalence classes of functions that are equal almost everywhere).
 * The function space L^2 has interesting dense subspaces such as smooth or continuous functions, which are the ones we typically deal with
@@ -226,6 +279,10 @@ Chapter 7 discusses some of the practicalities and issues related to working wit
   - The residual spectrum: very unintuitive and related to the fact that, on infinite-dimensional Hilbert spaces $\nu(\hat{A})$ (dimension of the kernel) and $\nu(\hat{A}^\dagger)$ do not need to be the same; the residual spectrum consists of values $\lambda$ for which no eigenvectors or approximate eigenvectors exist, but for which $\overline{\lambda}$ is in the point spectrum or continuous spectrum of $\hat{A}^\dagger$.
 
 * For a self adjoint operator, the residual spectrum is empty, and the point spectrum and continuous spectrum only contain real numbers.
+
+**Not covered in class:**
+
+Subsection 7.3.6 (Gaussian quadrature) was only briefly covered; there will be no questions about this on the exam.
 
 **Lemmas, propositions, theorems:**
 
@@ -251,7 +308,17 @@ For the next proposition on properties of the Fourier coefficients: proving the 
 
 ## 8. Linear differential operators
 
-This chapter provides an in-depth study of differential operators, and their role in the study of linear differential equations with boundary conditions.
+**Summary:**
+
+This chapter provides an in-depth study of differential operators, and their role in the study of linear differential equations with boundary conditions. We discuss how to construct the "formal adjoint" of a differential operator using partial integration, and how it relates to the boundary condition to actually construct the adjoint. We discuss how to decompose the solution of a differential equation in different parts, and how to study the existence and uniqueness of these different contributions. The adjoint plays a role via the Fredholm alternative theorem. Also, we discuss when a second order differential operator is self-adjoint (known as a Sturm-Liouville operator).
+
+To better understand the role of boundary conditions, we take an extended detour via initial value problems, for which we can formally construct the solution (as a path ordered exponential), and we also discuss practical recipes (via a Taylor expansion or a generalisation thereof, known as Frobenius method). We find that we need $p$ boundary conditions for a $p$th order differential equation to be well balanced. Finally then, we can construct the solution to the inhomogeneous differential equation (with homogeneous boundary conditions) using the Green's function.
+
+We then move on using differential operators in eigenvalue problems. The purpose thereof is for solving higher-dimensional partial differential equations, for which the spectral decomposion of a differential operator (if it exists) turns out to be very useful.
+
+**Not covered in class:**
+
+Subsections 8.4.3, 8.4.4 and section 8.5 were only briefly discussed in class.
 
 **Important concepts:**
 
@@ -291,7 +358,11 @@ No theorems beyond subsection 8.2.4; you need to understand examples and use the
 
 ## 9. Fourier transforms and distributions
 
+**Summary:**
+
 This chapter introduces the Fourier transform, first in the classical sense (as a unitary operator on $L^2(\mathbb{R})$). Then, the main concepts from the theory of distributions is introduced, which provides the mathematical framework for working with 'generalised functions' such as the Dirac delta 'function'. Within the setting of distributions, we can significantly extend the concept of derivatives, limits, series and Fourier transforms beyond their classical meaning, and we provide several examples of this. Finally, we revisit the different types of Fourier transforms and introduce a fourth type that combines very naturally with the three types that we have already seen. Then, we find various relations between these different types, in which the use of distributions plays a prominent role.
+
+**Not covered in class:**
 
 Sections 9.2.11 and 9.3.4 have only been briefly covered in class, 9.3.5 and 9.4 have not been covered at all. None of those need to be known for the exam.
 
@@ -301,7 +372,7 @@ Sections 9.2.11 and 9.3.4 have only been briefly covered in class, 9.3.5 and 9.4
 * Fourier transform of Gaussian distribution, characteristic function
 * Test function, compact support, distribution, regular versus singular distribution, Dirac-delta distribution (and its derivatives), Heaviside function/distribution, Cauchy principal value, distributional derivative, distributional limit, distributional Fourier series and Fourier transform
 * Fourier transforms on different domains: discrete Fourier transform, Fourier series, discrete-time Fourier transform, (continuous-time) Fourier transform.
-* Sampling, Nyquist rate, reconstruction via sinc (Whittaker–Shannon interpolation formula). 
+* Sampling, Nyquist rate, reconstruction via sinc (Whittaker–Shannon interpolation formula).
 
 **Lemmas, propositions, theorems:**
 
@@ -320,6 +391,6 @@ What you need to know is:
 * Theorem 9.18 (Poisson summation formula) given Dirac Comb distribution
 * Sampling: proving proposition 9.20, corollary 9.21 and proposition 9.22.
 
-**For applications / exercises**
+**For applications / exercises:**
 
-Unfortunately, we did not have time for further exercises on this chapter. 
+Unfortunately, we did not have time for further exercises on this chapter.
