@@ -318,7 +318,7 @@ We then move on using differential operators in eigenvalue problems. The purpose
 
 **Not covered in class:**
 
-Subsections 8.2.6 and 8.2.7 were not really covered, only the resulting method of Frobenius (at the end of 8.2.7), which is useful for the exercises. The example application in 8.2.8 (Bessel function) was also not covered.
+Subsections 8.2.5, 8.2.6 and 8.2.7 were not really covered, only the resulting method of Frobenius (at the end of 8.2.7), which is useful for the exercises. The example application in 8.2.8 (Bessel function) was also not covered.
 
 Subsections 8.4.3, 8.4.4 and section 8.5 were only briefly discussed in class.
 
