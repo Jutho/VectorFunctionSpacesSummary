@@ -94,7 +94,7 @@ This chapter discusses general properties of vector space endomorphisms = linear
 
 **Not covered in class:**
 
-Section 3.3.3 (Derivatives of matrix functions) was not covered in class.
+Section 3.3.3 (Derivatives of matrix functions) was not covered in class. Section 3.4 was covered, but rather quickly, and mainly with how it should be used in applications and exercises (see below). There will be no theory questions from Section 3.4.
 
 **Important concepts:**
 
