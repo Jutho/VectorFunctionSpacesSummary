@@ -264,15 +264,15 @@ Important passive proofs:
 
 Chapter 7 discusses some of the practicalities and issues related to working with functions spaces. It is mostly there to raise some awareness about these issues. The practical aspects are situated in Section 7.3 (properties of orthogonal polynomials) and parts of Section 7.4 (elementary properties of Fourier coefficients / Fourier series in 7.4.1, also Proposition 7.24 and 7.27 in section 7.4.3; relation with Discrete Fourier Transform in 7.4.5). All other (sub)sections are there as background material to raise some awareness about potential issues, and do not require an active understanding.
 
-* Function spaces can be given a proper norm and, for L^2, an inner product. The non-trivial step involves `identifying' functions that are equal almost everywhere, as one and the same (technically, working with equivalence classes of functions that are equal almost everywhere).
-* The function space L^2 has interesting dense subspaces such as smooth or continuous functions, which are the ones we typically deal with
+* Function spaces can be given a proper norm and, for $L^2$, an inner product. The non-trivial step involves `identifying' functions that are equal almost everywhere, as one and the same (technically, working with equivalence classes of functions that are equal almost everywhere).
+* The function space $L^2$ has interesting dense subspaces such as smooth or continuous functions, which are the ones we typically deal with
 * Orthogonal polynomials and their general properties (recurrence relation and structure of roots=zeros)
 * Fourier series to represent periodic functions; trigonometric polynomials are dense = Fourier modes are complete and thus the expansion theorem (Chapter 5 applies); unitary transformation between square integrable functions on an interval,and square summable sequence of Fourier coefficients (Parseval); slow convergence for discontinuities (Gibbs phenomenon); relation with discrete Fourier transform
 * Unbounded operators are only defined on a subspace of the full Hilbert space = domain; the interesting class of operators are those for which that domain is still dense (=> no vector is orthogonal to the domain).
 * Also the adjoint of an unbounded operator needs a domain, namely all $w$ for which we can make $\langle w, \hat{A} v \rangle = \langle \hat{A}^\dagger w, v\rangle$ work for all $v$ in the domain of $\hat{A}$. For differential operators, this relates to choosing boundary conditions for $v$ and $w$.
 * Understanding the difference between being Hermitian/symmetric ($\langle w, \hat{A} v \rangle = \langle A w,v\rangle$ for all $v$ and $w$ in domain of $A$) and being self adjoint, again in the case of differential operators.
 
-* The spectrum of an operator in an infinite-dimensional $\hat{A}$ Hilbert space consists of three parts:
+* The spectrum of an operator $\hat{A}$ in an infinite-dimensionalHilbert space consists of three parts:
 
   - The point spectrum: actual eigenvalues $\lambda$ with normalizable eigenvectors $v$: $\hat{A} v = \lambda v$
   - The continuous spectrum: values $\lambda$ for which we can find approximate eigenvectors, but no exact eigenvectors that we can properly normalize; we can find $v_\epsilon$ such that $\lVert \hat{A} v_\epsilon - \lambda v_\epsilon \rVert < \epsilon$ for all $\epsilon>0$, but the limit $\epsilon \to 0$ of $v_\epsilon$ is not well defined
@@ -290,7 +290,7 @@ Important active proofs:
 
 * Proposition 7.8
 * Proposition 7.9
-* Proposition 7.10 (Cristoffel-Darboux formule zeker niet vanbuiten kennen)
+* Proposition 7.10 (Cristoffel-Darboux formula does not need to be known by heart)
 * Proposition 7.11
 
 For the next proposition on properties of the Fourier coefficients: proving the relation that the Fourier coefficients satisfy is an easy calculation, which you should be able to actively do. You do not need to know the technical conditions under which these manipulations are allowed, and which requirements they impose on the function $f$ or the Fourier coefficients $(\widehat{f}_k)$.
