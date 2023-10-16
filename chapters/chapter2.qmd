@@ -1,0 +1,44 @@
+---
+title: "Chapter 2 --- Linear maps and matrices"
+author: "Jutho Haegeman"
+date: "09/25/2023"
+---
+
+# Summary
+
+This chapter discusses general properties of vector space homomorphisms = linear maps, and in particular their representation as matrices in the case of finite-dimensional vector spaces. Most of this chapter should be repition, some parts are probably new (linear functionals and dual space, antilinear maps, determinants and inverses of block matrices). This chapter contains several important general concepts that you need to be able to actively use
+for both the theory and exercise exam.
+
+# Not convered in class
+
+Section 2.5.4 (Double dual space) and Section 2.7.3 (Conjugate vector space) have not been covered in class.
+
+# Important concepts
+
+* Linear map, property of linearity ($=$ additivity + homogeneity), composition, identity
+* Kernel ($=$ null space), image ($=$ range), rank, nullity
+* Matrix, matrix representation of a linear map
+* Linear extensions
+* Matrix multiplication, transpose, hermitian conjugate, (anti)symmetric and (anti)Hermitian matrix
+* Determinant (Leibniz formula) and trace
+* Adjugate and inverse matrix, singular matrix ($=$ zero determinant) and nonsingular matrix
+* Jacobi's formula for the derivative of a determinant
+* General linear group ($=$ invertible matrices), basis transform $=$ similarity transform
+* Linear functional, dual space ($=$ linear functionals), basis transform of linear functional, dual linear map ($\cong$ matrix transpose)
+* Interpretation of complex linear maps and vice versa; antilinear map
+* System of linear equations, homogeneous and inhomogeneous, over- and underdetermined, upper and lower triangular matrix, LU decomposition
+* Block matrices, block-LDU decomposition and Schur complements, Sherman-Morrison-Woodbury identity
+
+# Lemmas, propositions and theorems
+
+Several of the propositions that are repititions of last year were not explicitly proven in the class. The most important propositions and theorems that we have given some attention and have proven in class are
+
+* Theorem 2.11: Rank-nullity theorem $=$ dimension theorem (together with proposition 2.10 which precedes it, and corollary 2.12)
+* Proposition 2.13: column rank = row rank (together with corollary 2.14)
+* Proposition 2.24: Jacobi's formula
+* Proposition 2.30: Woodbury's identity
+
+# For applications / exercises
+
+* Computing determinant of jacobian for integration measures
+* Using Gaussian elemination, Schur complements, Sherman-Morrison-Woodbury formula
