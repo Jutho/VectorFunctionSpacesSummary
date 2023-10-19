@@ -1,0 +1,55 @@
+---
+title: "Chapter 3 --- Linear operators and eigenvalues"
+author: "Jutho Haegeman"
+date: "10/17/2023"
+---
+
+# Summary
+
+This chapter discusses general properties of vector space endomorphisms = linear operators = linear maps from a vector space to itself. Operators can be composed with themselves, giving rise to powers and polymials. This is important to then also introduce eigenvalues and eigenvectors, and finally, to generalise arbitrary scalar functions ($f:\mathbb{C}\to \mathbb{C}$) to operators/square matrices. Parts of this will be repition (projectors, eigenvalues, ...), other parts will be new (generalised eigenspaces, Jordan form, functions of operators).
+
+# Not convered in class
+
+* Section 3.2.5 (Jordan normal form) was only covered to give the end result, namely the specific structure of the Jordan normal form, without the "proof" or "recipe" of how it is obtained. You need to be able to use the Jordan form in applications, or in other theoretical constructions (like how to apply functions to it), but no proofs from section 3.2.5 need to be known.
+* Section 3.2.6 (Sensitivity of eigenvalues and eigenspaces) was covered, but only gives a flavor of the difficulties related to the study of how the Jordan normal form changes under small perturbations. It does not contain any formal results, theorems or proofs.
+* Section 3.3.3 (Derivatives of matrix functions) was not discussed at all in class, and thus does not need to be known.
+* Section 3.4 was covered, but rather quickly, and mainly with how it should be used in applications and exercises (see below). There will be no theory questions from Section 3.4, but solving linear recurrence relations or differential equations is an important skill for the exercises.
+
+# Important concepts
+
+* Projector and its relation to direct sum
+* Polynomial of a matrix, annihilating polynomial, minimal annihilating polynomial
+* Eigenvalue, eigenvector, eigenspace, spectrum, geometric multiplicity, algebraic multiplicity, characteristic polynomial, spectral decomposition (= eigenvalue decomposition = diagonalisation), spectral projector, diagonalisable versus defective matrix
+* Invariant subspace, generalised eigenspace, Jordan normal form
+* Companion matrix, eigenvectors of the companion matrix => diagonalised by Vandermonde matrix (not the generalisation for the case where eigenvalues coincide and the companion matrix is defective)
+* Structure of eigenvalues and eigenvectors for real matrices
+* Left eigenvector and its relation to the dual of the linear operator
+* Function of an operator/matrix, matrix exponential, matrix logarithm and powers
+
+# Lemmas, propositions and theorems
+
+Proofs to most lemmas and propositions are rather short and/or constructive and need to be known. Excluded from this is the construction of the Jordan normal form (Subsection 3.2.5).
+
+Important constructive proofs (active knowledge):
+
+* Proposition 3.3: projector versus direct sum
+* Proposition 3.4
+* Proposition 3.7, 3.8 and corollary 3.9: linear independence of different eigenvectors
+* Proposition 3.10: eigenvalues of $\hat{A}\circ\hat{B}$ vs $\hat{B}\circ \hat{A}$
+* Proposition 3.11: characteristic polynomial of a companion matrix
+* Theorem 3.13: common spectral decomposition of commuting operators
+
+
+Longer proofs (passive knowledge):
+
+* Theorem 3.12: Cayley Hamilton: passive knowledge of proof (understand but not reproduce)
+* Proposition 3.15: sequences of invariant subspaces
+* Theorem 3.16: decomposition of $V$ in invariant subspaces, interpretation of and relation between different indices $q_\lambda$, $r_\lambda$ and $s_\lambda$
+* Proposition 3.19: Jordan decomposition of companion matrix
+
+# For applications / exercises
+
+* Using Cayley-Hamilton theorem
+* Computing eigenvalues and eigenvectors
+* Computing a matrix function via eigenvalue or Jordan decomposition
+* Solving an (autonomous linear) initial value problem or recurrence relation (in particular, for the higher-order scalar case: Remark 3.62 and 3.69)
