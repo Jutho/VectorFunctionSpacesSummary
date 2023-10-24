@@ -1,84 +1,10 @@
 
 
-## 2. Linear maps and matrices
-
-**Summary:**
-
-This chapter discusses general properties of vector space homomorphisms = linear maps, and in particular their representation as matrices in the case of finite-dimensional vector spaces. Most of this chapter should be repition, some parts are probably new (linear functionals and dual space, antilinear maps, determinants and inverses of block matrices). You need to be able to use the concepts from this chapter (for exercises and further theory), but there will not be any direct questions about it on the theory exam.
-
-**Not covered in class:**
-
-Section 2.5.4 (Double dual space) and Section 2.7.3 (Conjugate vector space) have not been covered in class.
-
-**Important concepts:**
-
-* Linear map, property of linearity ($=$ additivity + homogeneity), composition, identity
-* Kernel ($=$ null space), image ($=$ range), rank, nullity
-* Matrix, matrix representation of a linear map
-* Matrix multiplication, transpose, hermitian conjugate, (anti)symmetric and (anti)Hermitian matrix
-* determinant (Leibniz formula) and trace
-* inverse, singular matrix ($=$ zero determinant) and nonsingular matrix
-* General linear group ($=$ invertible matrices), basis transform $=$ similarity transform
-* Linear functional, dual space ($=$ linear functionals), basis transform of linear functional, dual linear map ($\cong$ matrix transpose)
-* Antilinear map
-* System of linear equations, homogeneous and inhomogeneous, over- and underdetermined, upper and lower triangular matrix, LU decomposition, block matrix
-
-**Lemmas, propositions and theorems:**
-
-No proofs from Chapter 2. Nonetheless important:
-
-* Theorem 2.11: Rank-nullity theorem $=$ dimension theorem
-
-**For applications / exercises**
-
-* Computing determinant of jacobian for integration measures
-* Using Guassian elemination, Schur complements, Sherman-Morrison-Woodbury formula
-
-## 3. Linear operators and eigenvalues
-
-**Summary:**
-
-This chapter discusses general properties of vector space endomorphisms = linear operators = linear maps from a vector space to itself. Operators can be composed with themselves, giving rise to powers and polymials. This is important to then also introduce eigenvalues and eigenvectors, and finally, to generalise arbitrary scalar functions ($f:\mathbb{C}\to \mathbb{C}$) to operators/square matrices. Parts of this will be repition (projectors, eigenvalues, ...), other parts will be new (generalised eigenspaces, Jordan form, functions of operators).
-
-**Not covered in class:**
-
-Section 3.3.3 (Derivatives of matrix functions) was not covered in class. Section 3.4 was covered, but rather quickly, and mainly with how it should be used in applications and exercises (see below). There will be no theory questions from Section 3.4.
-
-**Important concepts:**
-
-* Projector and its relation to direct sum
-* Polynomial of a matrix, annihilating polynomial, minimal annihilating polynomial
-* Eigenvalue, eigenvector, eigenspace, spectrum, geometric multiplicity, algebraic multiplicity, characteristic polynomial, spectral decomposition ($=$ eigenvalue decomposition $=$ diagonalisation), spectral projector, diagonalisable versus defective matrix
-* Invariant subspace, generalised eigenspace, Jordan normal form
-* Companion matrix, diagonalised by Vandermonde matrix (not the generalisation for the case where eigenvalues coincide and the companion matrix is defective)
-* Left eigenvector
-* Function of an operator/matrix, matrix exponential
-
-**Lemmas, propositions and theorems:**
-
-Proofs to most lemmas and propositions are rather short and/or constructive and need to be known. Excluded from this is the construction of the Jordan normal form (Subsection 3.2.5).
-
-Particularly important are:
-
-* Proposition 3.3: projector versus direct sum
-* Proposition 3.4
-* Proposition 3.7: linear independence of different eigenvectors
-* Theorem 3.12: Cayley Hamilton: passive knowledge of proof (understand but not reproduce)
-* Proposition 3.15: invariant subspaces
-* Proposition 3.19: Jordan decomposition of companion matrix: only passive knowledge
-
-**For applications / exercises**
-
-* Using Cayley-Hamilton theorem
-* Computing eigenvalues and eigenvectors
-* Computing a matrix function via eigenvalue or Jordan decomposition
-* Solving an (autonomous linear) initial value problem or recurrence relation (in particular: Remark 3.62 and 3.69)
-
 ## 4. Norms and distances
 
 **Summary:**
 
-This chapter introduces the concept of a norm, and then discusses at length how this can be used to make sense of limits of sequences of vectors, mostly in infinite-dimensional vector spaces, where there are some surprises and not everything is very intuitive. Then, we discuss the implications for linear maps on such normed vector spaces. Most of the proofs are very technical; none of them need to be known for the exam. However, some important concepts are important for the remainder of the course (especially the theory-part).
+This chapter introduces the concept of a norm, and then discusses at length how this can be used to make sense of limits of sequences of vectors, mostly in infinite-dimensional vector spaces, where there are some surprises and not everything is very intuitive. Then, we discuss the implications for linear maps on such normed vector spaces.
 
 **Not covered in class:**
 
@@ -87,36 +13,37 @@ Section 4.4.3 was not covered in class. If you want some theoretical background 
 **Important concepts:**
 
 * Norm, Hölder p-norm
-* Metric ($=$ distance), distance in a normed vector space, isometric map, limit of a sequence, continuity of a map, open subset, closed subset, closure, dense subset, separable metric space
+* Metric ($=$ distance), distance in a normed vector space, isometric map, limit of a sequence, continuity of a map, open subset, closed subset, closure, dense subset
 * Equivalence of norms
-* Cauchy sequence, metric complete vector space (=Banach space), closed subspace, dense subspace, complete set, absolutely converging series, Schauder basis
-* Norm for linear maps, Frobenius norm, bounded map ($\equiv$ continuous map), subordinate norm, submultiplicative norm for operators, induced norm ($=$ operator norm), spectral radius
+* Cauchy sequence, metric completeness (=every Cauchy sequence has limit), Banach space (=metric complete normed vector space), closed subspace, dense subspace, complete set, absolutely converging series, Schauder basis
+* Norm for linear maps, Frobenius norm, bounded map $\equiv$ continuous map, subordinate norm, submultiplicative norm for operators, induced norm ($=$ operator norm), spectral radius
 * Condition number
+
+Finite-dimensional vector spaces: all norms are equivalent, always metric complete, finite-dimensional subspaces are always closed
+
+
 
 **Lemmas, propositions, theorems:**
 
-No proofs from Chapter 4. The following insights are nonetheless important:
+No proofs about compactness (Theorem 4.10, Lemma 4.11), metric completeness and Banach spaces (section 4.2 and also Proposition 4.19)
 
-* In a metric complete vector space (=Banach space)
+Active proofs:
+- Hölder norms: inequalities of Young, Hölder and Minkowski (Lemma 4.1, lemma 4.2, proposition 4.3)
+- Continuity of norm (proposition 4.5)
+- Characterisation of norm equivalence (Proposition 4.7)
+- Equivalence between boundedness and continuity of linear maps (Proposition 4.17)
+- Boundedness of linear maps with finite-dimensional domain (Proposition 4.18)
+- Submultiplicativity of operator norm (Proposition 4.20)
+- Consistence of induced and Frobenius matrix norms (Proposition 4.21, 4.22)
+- Relation between submultiplicative norms and spectral radius (Proposition 4.23, 4.24)
 
-  - Cauchy sequence $\iff$ convergent sequence
-  - Absolutely convergent series $\implies$ convergent series
-
-* Finite-dimensional vector spaces:
-
-  - all norms are equivalent
-  - always metric complete
-  - finite-dimensional subspaces are always closed
-
-* Infinite-dimensional proper subspaces of a Banach space can be dense: there is no intuitive or visual way to interpret this concept, there are vectors which are not in this subspace, but nonetheless they are arbitrary close to it (measured using the norm of the surrounding vector space). In a Hilbert space (next chapter), this means in particular that no vector can be made orthogonal to a dense subspace, since a unit vector that is orthogonal to a subspace has at least distance 1 to any vector in that subspace.
-
-* Linear maps are continuous if and only if bounded
-* Bounded linear maps with operator norm are metric complete
-* Operator norm is subordinate and submultiplicative
-* Gelfand formula for spectral radius
+Passive proofs:
+- Continuity of vector additiona and scalar addition (proposition 4.6)
+- equivalence of all norms in finite dimensional spaces (proposition 4.8)
+- dual norm (proposition 4.25)
 
 **For applications / exercises**
-* Computing a norm. But this chapter is mostly there for theoretical purposes.
+* Computing norms. But this chapter is mostly there for theoretical purposes.
 
 ## 5. Inner products and orthogonality
 
