@@ -47,7 +47,7 @@ Active proofs:
 
 Passive proofs:
 
-- Continuity of vector additiona and scalar addition (proposition 4.6)
+- Continuity of vector addition and scalar addition (proposition 4.6)
 - equivalence of all norms in finite dimensional spaces (proposition 4.8)
 - dual norm (proposition 4.25)
 

@@ -1,0 +1,60 @@
+---
+title: "Chapter 5 --- Inner products and orthogonality"
+author: "Jutho Haegeman"
+date: "11/07/2023"
+---
+
+# Summary
+
+This important chapter introduces the concept of an inner product and the structures that follows from it, notabily, the concept of orthogonality and orthogonal projections. In particular, working with a basis in an infinite-dimensional vector space becomes more easy with an inner product (and associated norm) instead of "just a norm", when using orthogonality. In a Hilbert space (=metric complete inner product space), a set of vectors that is complete (the linear span defines a dense subspace) can be turned into an orthonormal set (using Gram-Schmidt) which then defines a basis (expansion theorem). Linear maps and linear operators between Hilbert spaces can also have more structure. Bounded linear functionals (elements from the dual space) are one-to-one associated with vectors in the primal space via the inner product. Bounded linear maps have adjoints. Linear operators can satisfy relations with their adjoint, e.g. they can be equal (self-adjoint), the adjoint can be the inverse (unitary) or they can commute with the adjoint (normal), which then imposes particular constraints on the spectrum and the eigenvectors. On the practical side, the orthogonal projection allows to construct least square solutions to overdetermined systems.
+
+# Not covered in class
+
+Chapter 5 is one of the most important chapters of the course and has been covered completely. 
+
+# Important concepts
+
+* Bilinear form, sesquilinear form, quadratic form, symmetric and Hermitian, degenerate, positive (semi)definite versus indefinite, matrix congruence (= basis transform for bilinear forms)
+* Inner product, standard/Euclidean inner product (in $\mathbb{C}^n$, in $\ell^2$, in $L^2$), metric/Gram matrix, inner product norm, continuity of the inner product, Hilbert space (=metric complete inner product space)
+* Orthogonality, orthonormal set, orthogonal complement, orthogonal projection, orthogonal direct sum decomposition, orthogonal projector
+* Orthonormal basis, Plancherel/Parseval identity, Gram-Schmidt orthonormalisation, QR decomposition
+* Riesz representation theorem: (Anti)-isomorphism between dual space (= bounded linear functionals) and original Hilbert space
+* Bounded linear maps, operator norm expressed using inner product, bounded linear maps have closed kernels
+* Adjoint of a linear map, self-adjoint operators, isometric and unitary maps, normal operator
+* Least squares solution, Moore-Penrose pseudoinverse
+
+# Lemmas, propositions, theorems
+
+Chapter 5 contains some of the most important theorems and propositions (Cauchy-Schwarz inequality, orthogonal projection theorem, expansion theorem, …). The corresponding proofs are often short and constructive. Shorter proofs need to be known actively, longer proofs passively.
+
+Important active proofs:
+
+* Theorem 5.2: Cauchy-Schwarz inequality
+* Corollary 5.3: inner product norm
+* Proposition 5.5: parallellogram law
+* Proposition 5.7 + corollary 5.8: linear independence of orthogonal vectors
+* Theorem 5.9: Pythagoras
+* Proposition 5.10-5.12 as well as corollary 5.17-5.20: properties of orthogonal complement
+* Lemma 5.15: norm of an orthogonal projector
+* Lemma 5.21 and resulting from that Lemma 5.22: constructing orthogonal projection, Bessel's inequality
+* Theorem 5.23: expansion theorem
+* Corollary 5.24 & 5.25: Plancherel and Parseval
+* Proposition 5.28: construction of the adjoint
+* Proposition 5.29 - 5.30: properties of the adjoint map
+* Proposition 5.31: characterisation of an linear isometry
+* Proposition 5.34: characterisation of a normal operator
+* Corollary 5.35 and 5.36: structure of eigenvalues and eigenvectors of normal operators
+* Proposition 5.37, corollary 5.38 and 5.39: more properties of normal operators
+
+Important passive proofs:
+
+* Theorem 5.6: polarisation identity
+* Proposition 5.10-5.12: properties of orthogonal complement
+* Theorem 5.13 + corollary 5.14: orthogonal projection + orthogonal direct sum
+* Theorem 5.16: orthogonal projectors and direct sum
+* Theorem 5.27: Riesz representation theorem
+
+# For applications / exercises
+
+* Computing inner products, applying Gram-Schmidt (e.g. with custom inner products or between functions in a function space)
+* Knowing and using the properties of self-adjoint and normal operators
