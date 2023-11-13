@@ -27,7 +27,7 @@ Chapter 5 is one of the most important chapters of the course and has been cover
 
 Chapter 5 contains some of the most important theorems and propositions (Cauchy-Schwarz inequality, orthogonal projection theorem, expansion theorem, …). The corresponding proofs are often short and constructive. Shorter proofs need to be known actively, longer proofs passively.
 
-Important active proofs:
+Active proofs:
 
 * Theorem 5.2: Cauchy-Schwarz inequality
 * Corollary 5.3: inner product norm
@@ -46,10 +46,9 @@ Important active proofs:
 * Corollary 5.35 and 5.36: structure of eigenvalues and eigenvectors of normal operators
 * Proposition 5.37, corollary 5.38 and 5.39: more properties of normal operators
 
-Important passive proofs:
+Passive proofs:
 
 * Theorem 5.6: polarisation identity
-* Proposition 5.10-5.12: properties of orthogonal complement
 * Theorem 5.13 + corollary 5.14: orthogonal projection + orthogonal direct sum
 * Theorem 5.16: orthogonal projectors and direct sum
 * Theorem 5.27: Riesz representation theorem
