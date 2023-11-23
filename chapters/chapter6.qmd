@@ -1,0 +1,41 @@
+---
+title: "Chapter 6 --- Unitary similarity and unitary equivalence"
+author: "Jutho Haegeman"
+date: "11/21/2023"
+---
+
+# Summary
+
+Chapter 6 discusses some of the common matrix decompositions in finite-dimensional linear algebra. A significant fraction of the material deals with algorithmic details and remarks, and serves as background for or addition to e.g. Python for Scientists. It is not of high importance for either the theory or exercises of this course. However, some of the main theorems regarding Schur decomposition and singular value decomposition are important.
+
+# Not covered in class
+
+Subsections 6.4.4 (practical considerations regarding Schur decomposition) and Section 6.7 (Krylov methods) were not at all covered in class. Subsection 6.6.6 (polar decomposition) was only briefly mentioned.
+
+# Important concepts
+
+* Unitary and orthogonal group
+* Discrete Fourier transform as unitary transformation and circulant matrices
+* Schur decomposition and its relation to eigenvalue decomposition for normal matrices
+* Canonical form of a bilinear map, intertia or signature
+* Singular value decomposition: full, thin and compact; relation to rank, operator norm, condition number; applicability in the context of least squares solution (pseudo-inverse) and low rank approximations
+
+# Lemmas, propositions, theorems
+
+Important active proofs:
+
+* Proposition 6.2: Discrete Fourier transform diagonalises circulant matrices
+* Theorem 6.3: Schur decomposition
+* Proposition 6.4: Normal matrices and Schur decomposition
+* Proposition 6.6 and theorem 6.7: Canonical form for congruence and uniqueness thereof (Sylvester's law)
+* Proposition 6.8: Singular value decomposition (also remark 6.9 for its relation to eigenvalue / Schur decomposition)
+* Proposition 6.9: SVD and rank
+* Proposition 6.10: SVD and operator norm
+* Proposition 6.11: SVD and Frobenius norm
+* Proposition 6.12: SVD and condition number
+* Proposition 6.13: SVD and minimum norm least squares solution
+* Theorem 6.14: SVD and low rank approximation in operator norm (not Theorem 6.15 in Frobenius norm)
+
+# For applications / exercises
+
+Techniques from Chapter 6 are mostly relevant for numerical work in linear algebra, and thus less so for the pen-and-paper exercises. 
