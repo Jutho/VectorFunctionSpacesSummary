@@ -1,0 +1,39 @@
+---
+title: "Chapter 9 --- Fourier calculus and distributions"
+author: "Jutho Haegeman"
+date: "12/12/2023"
+---
+
+# Summary
+
+This chapter introduces the Fourier transform, first in the classical sense (as a unitary operator on $L^2(\mathbb{R})$). Then, the main concepts from the theory of distributions is introduced, which provides the mathematical framework for working with 'generalised functions' such as the Dirac delta 'function'. Within the setting of distributions, we can significantly extend the concept of derivatives, limits, series and Fourier transforms beyond their classical meaning, and we provide several examples of this. Finally, we revisit the different types of Fourier transforms and introduce a fourth type that combines very naturally with the three types that we have already seen. Then, we find various relations between these different types, in which the use of distributions plays a prominent role.
+
+# Not covered in class
+
+Subsections 9.2.11 and 9.3.5 and Section 9.4 have not been covered and do not need to be known.
+
+# Important concepts
+
+* Fourier transform and its elementary properties, convolution, Fourier transform as unitary operator on $L^2(\mathbb{R})$, Parseval and Plancherel relation for Fourier transform
+* Fourier transform of Gaussian distribution, characteristic function
+* Test function, compact support, distribution, regular versus singular distribution, Dirac-delta distribution (and its derivatives), Heaviside function/distribution, Cauchy principal value, distributional derivative, distributional limit, distributional Fourier series and Fourier transform
+* Fourier transforms on different domains: discrete Fourier transform, Fourier series, discrete-time Fourier transform, (continuous-time) Fourier transform.
+* Sampling, Nyquist rate, reconstruction via sinc (Whittaker–Shannon interpolation formula).
+
+# Lemmas, propositions, theorems
+
+* Properties of Fourier transform: Proposition 9.1 and 9.2, Theorem 9.3 (convolution), Proposition 9.4 (derivative) (not the technical requirements on $f$ or $\widehat{f}$)
+* Computing Fourier transform of Gaussian distribution, passive understanding of proving central limit theorem
+* Using the definition of translation, scaling, derivative, coordinate transform, limit of distributions on examples:
+  Examples 9.9, 9.10, 9.11, 9.12, 9.13, Proposition 9.3, Examples 9.14, 9.15, 9.16, 9.17, 9.19
+* Theorem 9.15 (given the structure of the complex logarithm and the distributional derivative of $\log |x|$)
+* Using Proposition 9.16 (Dirac sequence) on examples such as Example 9.20, 9.21, 9.22
+* Passive understanding of subsection 9.2.5 (Cauchy Principal Value) and subsection 9.2.9 (Dirac Comb distribution)
+* Fourier transform of distributions on examples: Example 9.23, 9.24
+* Theorem 9.18 (Poisson summation formula) given Dirac Comb distribution
+* Sampling: proving proposition 9.20, corollary 9.21 and proposition 9.22.
+
+# For applications / exercises
+
+* Computing Fourier transforms using the few basic examples and a combination of their elementary properties.
+* Working with the Dirac distribution, Heaviside function, Dirac comb distribution (e.g. scaling or transforming the argument), …
