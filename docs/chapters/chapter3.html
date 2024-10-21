@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jutho Haegeman">
-<meta name="dcterms.date" content="2023-10-17">
+<meta name="dcterms.date" content="2024-10-15">
 
 <title>Vector- en functieruimten – Samenvatting - Chapter 3 — Linear operators and eigenvalues</title>
 <style>
@@ -107,7 +107,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
   <li><a href="#not-convered-in-class" id="toc-not-convered-in-class" class="nav-link" data-scroll-target="#not-convered-in-class">Not convered in class</a></li>
   <li><a href="#important-concepts" id="toc-important-concepts" class="nav-link" data-scroll-target="#important-concepts">Important concepts</a></li>
-  <li><a href="#lemmas-propositions-and-theorems" id="toc-lemmas-propositions-and-theorems" class="nav-link" data-scroll-target="#lemmas-propositions-and-theorems">Lemmas, propositions and theorems</a></li>
   <li><a href="#for-applications-exercises" id="toc-for-applications-exercises" class="nav-link" data-scroll-target="#for-applications-exercises">For applications / exercises</a></li>
   </ul>
 </nav>
@@ -134,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 17, 2023</p>
+      <p class="date">October 15, 2024</p>
     </div>
   </div>
   
@@ -151,10 +150,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="not-convered-in-class" class="level1">
 <h1>Not convered in class</h1>
 <ul>
-<li>Section 3.2.5 (Jordan normal form) was only covered to give the end result, namely the specific structure of the Jordan normal form, without the “proof” or “recipe” of how it is obtained. You need to be able to use the Jordan form in applications, or in other theoretical constructions (like how to apply functions to it), but no proofs from section 3.2.5 need to be known.</li>
-<li>Section 3.2.6 (Sensitivity of eigenvalues and eigenspaces) was covered, but only gives a flavor of the difficulties related to the study of how the Jordan normal form changes under small perturbations. It does not contain any formal results, theorems or proofs.</li>
-<li>Section 3.3.3 (Derivatives of matrix functions) was not discussed at all in class, and thus does not need to be known.</li>
-<li>Section 3.4 was covered, but rather quickly, and mainly with how it should be used in applications and exercises (see below). There will be no theory questions from Section 3.4, but solving linear recurrence relations or differential equations is an important skill for the exercises.</li>
+<li>Section 3.3.3 (Jordan normal form) was only covered to give the end result, namely the specific structure of the Jordan canonical form, without the “proof” or “recipe” of how it is obtained. You need to be able to use the Jordan form in applications, or in other theoretical constructions (like how to apply functions to it), but no proofs from section 3.3.3 need to be known.</li>
+<li>Section 3.3.4 (Sensitivity of eigenvalues and eigenspaces) was covered, but only gives a flavor of the difficulties related to the study of how the Jordan normal form changes under small perturbations. It does not contain any formal results, theorems or proofs.</li>
+<li>Section 3.4.3 (Derivatives of matrix functions) was not discussed at all in class, and thus does not need to be known.</li>
+<li>Section 3.5 was covered, but very quickly, with as only goal for it to be used in applications and exercises (see below). There will be no theory questions from Section 3.5, but solving linear recurrence relations or differential equations is an important skill for the exercises.</li>
 </ul>
 </section>
 <section id="important-concepts" class="level1">
@@ -170,33 +169,13 @@ ul.task-list li input[type="checkbox"] {
 <li>Function of an operator/matrix, matrix exponential, matrix logarithm and powers</li>
 </ul>
 </section>
-<section id="lemmas-propositions-and-theorems" class="level1">
-<h1>Lemmas, propositions and theorems</h1>
-<p>Proofs to most lemmas and propositions are rather short and/or constructive and need to be known. Excluded from this is the construction of the Jordan normal form (Subsection 3.2.5).</p>
-<p>Important constructive proofs (active knowledge):</p>
-<ul>
-<li>Proposition 3.3: projector versus direct sum</li>
-<li>Proposition 3.4</li>
-<li>Proposition 3.7, 3.8 and corollary 3.9: linear independence of different eigenvectors</li>
-<li>Proposition 3.10: eigenvalues of <span class="math inline">\(\hat{A}\circ\hat{B}\)</span> vs <span class="math inline">\(\hat{B}\circ \hat{A}\)</span></li>
-<li>Proposition 3.11: characteristic polynomial of a companion matrix</li>
-<li>Theorem 3.13: common spectral decomposition of commuting operators</li>
-</ul>
-<p>Longer proofs (passive knowledge):</p>
-<ul>
-<li>Theorem 3.12: Cayley Hamilton: passive knowledge of proof (understand but not reproduce)</li>
-<li>Proposition 3.15: sequences of invariant subspaces</li>
-<li>Theorem 3.16: decomposition of <span class="math inline">\(V\)</span> in invariant subspaces, interpretation of and relation between different indices <span class="math inline">\(q_\lambda\)</span>, <span class="math inline">\(r_\lambda\)</span> and <span class="math inline">\(s_\lambda\)</span></li>
-<li>Proposition 3.19: Jordan decomposition of companion matrix</li>
-</ul>
-</section>
 <section id="for-applications-exercises" class="level1">
 <h1>For applications / exercises</h1>
 <ul>
 <li>Using Cayley-Hamilton theorem</li>
 <li>Computing eigenvalues and eigenvectors</li>
 <li>Computing a matrix function via eigenvalue or Jordan decomposition</li>
-<li>Solving an (autonomous linear) initial value problem or recurrence relation (in particular, for the higher-order scalar case: Remark 3.62 and 3.69)</li>
+<li>Solving an (autonomous linear) initial value problem or recurrence relation (in particular, for the higher-order scalar case: Remark 3.59 and 3.66)</li>
 </ul>
 
 

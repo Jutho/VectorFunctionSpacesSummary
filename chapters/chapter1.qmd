@@ -1,7 +1,7 @@
 ---
 title: "Chapter 1 --- Elementary algebraic structures"
 author: "Jutho Haegeman"
-date: "09/26/2023"
+date: "09/24/2024"
 ---
 
 # Summary
@@ -28,10 +28,6 @@ Section 1.2.3 and 1.2.4 were only partially covered in class. We have only intro
 * Linear map, linear operator, linear transformation, general linear group
 * Subspace, disjoint subspaces, direct sum, complement, codimension, quotient space,
 * Algebra, commutator
-
-# Lemmas, propositions and theorems
-
-No proofs from Chapter 1
 
 # For applications / exercises
 
