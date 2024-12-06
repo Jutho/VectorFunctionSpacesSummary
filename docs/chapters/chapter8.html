@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Jutho Haegeman">
-<meta name="dcterms.date" content="2023-12-05">
+<meta name="dcterms.date" content="2024-12-06">
 
 <title>Vector- en functieruimten – Samenvatting - Chapter 8 — Linear differential operators</title>
 <style>
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 5, 2023</p>
+      <p class="date">December 6, 2024</p>
     </div>
   </div>
   
@@ -147,12 +147,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="summary" class="level1">
 <h1>Summary</h1>
 <p>This chapter provides an in-depth study of differential operators, and their role in the study of linear differential equations with boundary conditions. We discuss how to construct the “formal adjoint” of a differential operator using partial integration, and how it relates to the boundary condition to actually construct the adjoint. We discuss how to decompose the solution of a differential equation in different parts, and how to study the existence and uniqueness of these different contributions. The adjoint plays a role via the Fredholm alternative theorem. Also, we discuss when a second order differential operator is self-adjoint (known as a Sturm-Liouville operator).</p>
-<p>To better understand the role of boundary conditions, we take an extended detour via initial value problems, for which we can formally construct the solution (as a path ordered exponential), and we also discuss practical recipes (via a Taylor expansion or a generalisation thereof, known as Frobenius method). We find that we need <span class="math inline">\(p\)</span> boundary conditions for a <span class="math inline">\(p\)</span>th order differential equation to be well balanced. Finally then, we can construct the solution to the inhomogeneous differential equation (with homogeneous boundary conditions) using the Green’s function.</p>
-<p>We then move on using differential operators in eigenvalue problems. The purpose thereof is for solving higher-dimensional partial differential equations, for which the spectral decomposion of a differential operator (if it exists) turns out to be very useful.</p>
+<p>To better understand the role of boundary conditions, we take an extended detour via initial value problems, for which we can formally construct the solution (as a time/path ordered exponential), and we also discuss practical recipes (via a Taylor expansion or a generalisation thereof, known as Frobenius method). We find that we need <span class="math inline">\(p\)</span> boundary conditions for a <span class="math inline">\(p\)</span>th order differential equation to be well balanced. Finally then, we can construct the solution to the inhomogeneous differential equation (with homogeneous boundary conditions) using the Green’s function.</p>
 </section>
 <section id="not-covered-in-class" class="level1">
 <h1>Not covered in class</h1>
-<p>While all subsections were mentioned in the lectures, several were only briefly mentioned and do not contain material that needs to be known for the theory exam. In particular, no theory from subsections 8.2.5 - 8.2.8 need to be known, but for the exercises, you need to know how to use a Taylor series and more generally the method of Frobenius to construct solutions of second order differential equations. Also subsections 8.4.3 and 8.4.4 as well as section 8.5 were only briefly mentioned.</p>
+<p>All sections up to (and including) subsection 8.2.4 have been covered in detail. Subsections 8.2.5, 8.2.6 and 8.2.7 are only important for the resulting recipe for solving differential equations using a Taylor series ansatz, or its generalisation known as Frobenius’ method. Subsection 8.2.8 has not been covered. We have also covered subsections 8.3.1 and 8.3.2. Subsection 8.3.3. and Sections 8.4. and 8.5 have not been covered.</p>
 </section>
 <section id="important-concepts" class="level1">
 <h1>Important concepts</h1>
@@ -161,8 +160,7 @@ ul.task-list li input[type="checkbox"] {
 <li>A <span class="math inline">\(p\)</span>th order differential equation is well balanced (likely to have a solution that exists and is unique for any right hand side) if it has exactly <span class="math inline">\(p\)</span> boundary conditions; this is a necessary but not sufficient condition. Having <span class="math inline">\(p\)</span> boundary conditions is also necessary (but not sufficient) to be a self-adjoint operator.</li>
 <li>Uniqueness is associated with <span class="math inline">\(\mathrm{ker}(\hat{L})\)</span>, existence with <span class="math inline">\(\mathrm{ker}(\hat{L}^\dagger)\)</span> (using Fredholm’s alternative theorem).</li>
 <li>Initial value problem, fundamental matrix solution, propagator and time-ordered exponential, Wronskian, Floquet theorem</li>
-<li>Boundary value problem, Dirichlet and Neumann conditions for second order problems, Green’s function, Green’s operator as inverse of differential operator, adjoint of the Green’s operator</li>
-<li>Sturm-Liouville eigenvalue problems: a regular Sturm-Liouville operator admits a spectral decompositoin where the eigenvectors provide a complete orthonormal basis for the Hilbert space, and can thus be used to compute e.g.&nbsp;the exponential or inverse (= Green’s function) (Remark 8.31 and 8.32)</li>
+<li>Boundary value problem, Dirichlet and Neumann conditions for second order problems, Green’s function, Green’s operator as inverse of differential operator,</li>
 </ul>
 </section>
 <section id="lemmas-propositions-theorems" class="level1">
@@ -191,7 +189,6 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>Be able to apply the Frobenius method, in particular for second order problems (Remarks 8.25 and 8.26). This requires that you can recognize/identify a regular singular point, and that you can derive the indicial equation. Also applying the simpler version (a Taylor series ansatz) when there is no singular point (coefficient of highest derivative is nowhere zero).</p></li>
 <li><p>Understand how to use a Green’s function, and how to construct it in the case of a second order problem with separated boundary conditions (p305 - 306, in particular eq 8.123).</p></li>
-<li><p>Solve (sufficiently simple) Sturm-Liouville problems and use the resulting spectral decomposition to compute the corresponding Green’s function or to solve time-dependent problems (computing <span class="math inline">\(\exp(t \hat{L})\)</span>)</p></li>
 </ul>
 
 

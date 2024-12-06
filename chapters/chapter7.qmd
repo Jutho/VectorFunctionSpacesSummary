@@ -1,24 +1,26 @@
 ---
 title: "Chapter 7 --- Function spaces"
 author: "Jutho Haegeman"
-date: "11/22/2023"
+date: "12/06/2024"
 ---
 
 # Summary
 
 Chapter 7 discusses some of the consequences and issues related to working with functions spaces and infinite-dimensional Hilbert spaces more generally. Many of the results require proofs that are very technical and are beyond the scope of this course (even though they are included in the lecture notes for completeness). The goal is to get a certain amount of intuition about what it means to work with functions in $L^2([a,b])$ or $L^2(\mathbb{R})$ (the important Hilbert space for quantum mechanics).
+
 This chapter deals with both the question of constructing an orthogonal basis (sections 7.3 and 7.4). A general function can then be expanded with respect to this basis, and thus gives rise to a sequence of expansion coefficients, which themselves live in the Hilbert space $\ell^2(\mathbb{N})$ or $\ell^2(\mathbb{Z})$. The final two sections discuss the different classes of operators that are relevant for such Hilbert spaces, and their properties, as well as adressing of several of the complications that arise, both with respect to their definition, the definition of the adjoint, and their spectral properties. Most of these issues are discussed in the context of differential operators and the interplay with boundary conditions, which is where they are most relevant in physics applications. The emphasis is on gaining intuition through these examples, rather than on the technical aspects of the general statements. 
 
 # Not covered in class
 
-While all sections where touched upon in class, several sections in the lecture notes contain technical results and their proofs which we did not discuss and are beyond the scope of this course (in particular everything in 7.1, subsections 7.4.2 and 7.4.3, section 7.6.1). Subsection 7.3.6 (Gaussian quadrature) was only covered up to (and including) Theoreom 7.13.
+Several sections in the lecture notes contain technical results and their proofs which we did not discuss and are beyond the scope of this course (in particular everything in 7.1, subsections 7.4.2 and 7.4.3, section 7.6.1). The specific classes of orthogonal polynomials (7.3.2 - 7.3.5) where not covered
+in the theory classes but have been covered as part of the exercises. We have not covered Subsection 7.3.6 on Gaussian quadrature.
 
 # Important concepts
 
 * Function spaces can be given a proper norm and, for $L^2$, an inner product. The non-trivial step involves `identifying' functions that are equal almost everywhere, as one and the same (technically, working with equivalence classes of functions that are equal almost everywhere).
 * The function space $L^2$ has interesting dense subspaces such as smooth or continuous functions, which are the ones we typically deal with
 * Polynomials are dense (in Hilbert spaces where they are square integrable, either because of a finite interval or because of a proper weight function, or both) and can be turned into an orthogonal basis with a number of interesting properties (recurrence relation and structure of roots=zeros)
-* Trigonometric polynomials are dense = Fourier modes are complete and thus the expansion theorem (Chapter 5 applies); unitary transformation between square integrable functions on an interval, and square summable sequence of Fourier coefficients (Parseval); Fourier coefficients have a number of interesting properties (translation, modulation, scaling, convolutions, …); Fourier series converge faster for smooth functions and have slow convergence for functions with discontinuities (Gibbs phenomenon); relation with discrete Fourier transform
+* Trigonometric polynomials are dense = Fourier modes are complete and thus the expansion theorem (Chapter 5) applies; unitary transformation between square integrable functions on an interval, and square summable sequence of Fourier coefficients (Parseval); Fourier coefficients have a number of interesting properties (translation, modulation, scaling, convolutions, …); Fourier series converge faster for smooth functions and have slow convergence for functions with discontinuities (Gibbs phenomenon); relation with discrete Fourier transform
 * Unbounded operators are only defined on a subspace of the full Hilbert space = domain; the interesting class of operators are those for which that domain is still dense (=> no vector is orthogonal to the domain).
 * Also the adjoint of an unbounded operator needs a domain, namely all $w$ for which we can make $\langle w, \hat{A} v \rangle = \langle \hat{A}^\dagger w, v\rangle$ work for all $v$ in the domain of $\hat{A}$. For differential operators, this relates to choosing boundary conditions for $v$ and $w$.
 * Understanding the difference between being Hermitian/symmetric ($\langle w, \hat{A} v \rangle = \langle A w,v\rangle$ for all $v$ and $w$ in domain of $A$) and being self adjoint, again in the case of differential operators.

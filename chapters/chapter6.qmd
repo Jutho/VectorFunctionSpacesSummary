@@ -1,7 +1,7 @@
 ---
 title: "Chapter 6 --- Unitary similarity and unitary equivalence"
 author: "Jutho Haegeman"
-date: "11/21/2023"
+date: "12/06/2024"
 ---
 
 # Summary
@@ -10,7 +10,7 @@ Chapter 6 discusses some of the common matrix decompositions in finite-dimension
 
 # Not covered in class
 
-Subsections 6.6.3 and 6.4.4 (practical considerations regarding Schur decomposition) and Section 6.7 (Krylov methods) were not at all covered in class. Subsection 6.6.6 (polar decomposition) was only briefly mentioned.
+Subsections 6.4.3 and 6.4.4 (power methods, subspace iteration and practical considerations regarding Schur decomposition) and Section 6.7 (Krylov methods) were not at all covered in class. Subsection 6.6.6 (polar decomposition) was only briefly mentioned.
 
 # Important concepts
 
