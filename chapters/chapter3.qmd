@@ -1,7 +1,7 @@
 ---
 title: "Chapter 3 --- Linear operators and eigenvalues"
 author: "Jutho Haegeman"
-date: "10/15/2024"
+date: "10/14/2025"
 ---
 
 # Summary
@@ -31,4 +31,4 @@ This chapter discusses general properties of vector space endomorphisms = linear
 * Using Cayley-Hamilton theorem
 * Computing eigenvalues and eigenvectors
 * Computing a matrix function via eigenvalue or Jordan decomposition
-* Solving an (autonomous linear) initial value problem or recurrence relation (in particular, for the higher-order scalar case: Remark 3.59 and 3.66)
+* Solving an (autonomous linear) initial value problem or recurrence relation (in particular, for the higher-order scalar case: Remark 3.58 and 3.65)
