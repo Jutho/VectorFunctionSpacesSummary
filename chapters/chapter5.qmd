@@ -1,7 +1,7 @@
 ---
 title: "Chapter 5 --- Inner products and orthogonality"
 author: "Jutho Haegeman"
-date: "11/07/2023"
+date: "11/19/2025"
 ---
 
 # Summary

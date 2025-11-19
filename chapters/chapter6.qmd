@@ -1,7 +1,7 @@
 ---
 title: "Chapter 6 --- Unitary similarity and unitary equivalence"
 author: "Jutho Haegeman"
-date: "12/06/2024"
+date: "11/19/2025"
 ---
 
 # Summary
@@ -10,7 +10,7 @@ Chapter 6 discusses some of the common matrix decompositions in finite-dimension
 
 # Not covered in class
 
-Subsections 6.4.3 and 6.4.4 (power methods, subspace iteration and practical considerations regarding Schur decomposition) and Section 6.7 (Krylov methods) were not at all covered in class. Subsection 6.6.6 (polar decomposition) was only briefly mentioned.
+Subsection 6.4.4 (practical considerations regarding Schur decomposition), Section 6.5 (Bilinear and Quadratic Forms Revisited) and Section 6.7 (Krylov methods) were not at all covered in class.
 
 # Important concepts
 
@@ -18,8 +18,8 @@ Subsections 6.4.3 and 6.4.4 (power methods, subspace iteration and practical con
 * Discrete Fourier transform as unitary transformation and circulant matrices
 * Schur decomposition and its relation to eigenvalue decomposition for normal matrices
 * Canonical form of a bilinear map, intertia or signature
-* Singular value decomposition: full, thin and compact; relation to rank, operator norm, condition number; applicability in the context of least squares solution (pseudo-inverse) and low rank approximations
+* Singular value decomposition: full, thin and compact; relation to rank, operator norm, condition number; applicability in the context of least squares solution (pseudo-inverse), low rank approximations and the polar decomposition
 
 # For applications / exercises
 
-Techniques from Chapter 6 are mostly relevant for numerical work in linear algebra, and thus less so for the pen-and-paper exercises. 
+Techniques from Chapter 6 are mostly relevant for numerical work in linear algebra, though the occasional pen and paper exercise can appear

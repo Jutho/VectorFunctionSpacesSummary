@@ -12,8 +12,7 @@ This chapter deals with both the question of constructing an orthogonal basis (s
 
 # Not covered in class
 
-Several sections in the lecture notes contain technical results and their proofs which we did not discuss and are beyond the scope of this course (in particular everything in 7.1, subsections 7.4.2 and 7.4.3, section 7.6.1). The specific classes of orthogonal polynomials (7.3.2 - 7.3.5) where not covered
-in the theory classes but have been covered as part of the exercises. We have not covered Subsection 7.3.6 on Gaussian quadrature.
+Several sections in the lecture notes contain technical results and their proofs which we did not discuss and are beyond the scope of this course (in particular everything in 7.1, subsections 7.4.2 and 7.4.3, section 7.6.1). The specific classes of orthogonal polynomials (7.3.2 - 7.3.5) where not covered in the theory classes but have been covered as part of the exercises.
 
 # Important concepts
 
@@ -31,16 +30,6 @@ in the theory classes but have been covered as part of the exercises. We have no
   - The residual spectrum: very unintuitive and related to the fact that, on infinite-dimensional Hilbert spaces $\nu(\hat{A})$ (dimension of the kernel) and $\nu(\hat{A}^\dagger)$ do not need to be the same; the residual spectrum consists of values $\lambda$ for which no eigenvectors or approximate eigenvectors exist, but for which $\overline{\lambda}$ is in the point spectrum of $\hat{A}^\dagger$.
 
 * For a self adjoint operator, the residual spectrum is empty, the point spectrum is discrete and associated eigenvectors are orthonormal, and the point and continuous spectrum only contain real numbers.
-
-# Lemmas, propositions, theorems
-
-Important active proofs:
-
-* Proposition 7.8, 7.9, 7.10, 7.11: properties of orthogonal polynomials (Cristoffel-Darboux formula does not need to be known by heart)
-* Proposition 7.12 (numerical integration)
-* Proposition 7.13 (Gaussian quadrature)
-* Proposition 7.17, 7.19, 7.24, 7.27: properties of the Fourier coefficients: proving the relation that the Fourier coefficients satisfy is an easy calculation, which you should be able to actively do. You do not need to know the technical conditions under which these manipulations are allowed, and which requirements they impose on the function $f$ or the Fourier coefficients $(\widehat{f}_k)$.
-* Proposition 7.31: operators with a commutator that yield the identity cannot be both bounded
 
 # For applications / exercises
 

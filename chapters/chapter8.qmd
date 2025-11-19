@@ -23,27 +23,6 @@ covered. We have also covered subsections 8.3.1 and 8.3.2. Subsection 8.3.3. and
 * Initial value problem, fundamental matrix solution, propagator and time-ordered exponential, Wronskian, Floquet theorem
 * Boundary value problem, Dirichlet and Neumann conditions for second order problems, Green's function, Green's operator as inverse of differential operator, 
 
-# Lemmas, propositions, theorems
-
-Important active proofs:
-
-* Proposition 8.3 and Corollary 8.4 (it is sufficient if you can prove this for the case $p=2$)
-* Proposition 8.5 and Corollary 8.6
-* Constructing the bilinear concomitant of the Sturm-Liouville operator (eq 8.30)
-* Verifying that it is self-adjoint with respect to separated or periodic boundary conditions.
-* Theorem 8.12
-* Proposition 8.13
-* Proposition 8.14
-* Proposition 8.15
-* Proposition 8.16
-* Theorem 8.17
-
-Important passive proofs:
-
-* Proposition 8.9 and its generalisation to the inhomogeneous case, Proposition 8.18
-
-No theorems beyond subsection 8.2.4; you need to understand examples and use the concepts (see above) in exercises.
-
 # For applications / exercises
 
 * Be able to apply the Frobenius method, in particular for second order problems (Remarks 8.25 and 8.26). This requires that you can recognize/identify a regular singular point, and that you can derive the indicial equation. Also applying the simpler version (a Taylor series ansatz) when there is no singular point (coefficient of highest derivative is nowhere zero).

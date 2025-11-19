@@ -20,19 +20,6 @@ Subsections 9.2.11 and 9.3.5 and Section 9.4 have not been covered and do not ne
 * Fourier transforms on different domains: discrete Fourier transform, Fourier series, discrete-time Fourier transform, (continuous-time) Fourier transform.
 * Sampling, Nyquist rate, reconstruction via sinc (Whittaker–Shannon interpolation formula).
 
-# Lemmas, propositions, theorems
-
-* Properties of Fourier transform: Proposition 9.1 and 9.2, Theorem 9.3 (convolution), Proposition 9.4 (derivative) (not the technical requirements on $f$ or $\widehat{f}$)
-* Computing Fourier transform of Gaussian distribution, passive understanding of proving central limit theorem
-* Using the definition of translation, scaling, derivative, coordinate transform, limit of distributions on examples:
-  Examples 9.9, 9.10, 9.11, 9.12, 9.13, Proposition 9.3, Examples 9.14, 9.15, 9.16, 9.17, 9.19
-* Theorem 9.15 (given the structure of the complex logarithm and the distributional derivative of $\log |x|$)
-* Using Proposition 9.16 (Dirac sequence) on examples such as Example 9.20, 9.21, 9.22
-* Passive understanding of subsection 9.2.5 (Cauchy Principal Value) and subsection 9.2.9 (Dirac Comb distribution)
-* Fourier transform of distributions on examples: Example 9.23, 9.24
-* Theorem 9.18 (Poisson summation formula) given Dirac Comb distribution
-* Sampling: proving proposition 9.20, corollary 9.21 and proposition 9.22.
-
 # For applications / exercises
 
 * Computing Fourier transforms using the few basic examples and a combination of their elementary properties.
