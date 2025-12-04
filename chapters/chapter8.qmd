@@ -13,7 +13,7 @@ To better understand the role of boundary conditions, we take an extended detour
 # Not covered in class
 
 All sections up to (and including) subsection 8.2.4 have been covered in detail. Subsections 8.2.5, 8.2.6 and 8.2.7 are only important for the resulting recipe for solving differential equations using a Taylor series ansatz, or its generalisation known as Frobenius' method. Subsection 8.2.8 has not been
-covered. We have also covered subsections 8.3.1 and 8.3.2. Subsection 8.3.3. and Sections 8.4. and 8.5 have not been covered.
+covered. We have also covered subsections 8.3.1 and 8.3.2. Subsection 8.3.3, 8.4.3, 8.4.4 and section 8.5 have only been covered very briefly, and from subsection 8.3.3 onwards, there will be no theory questions.
 
 # Important concepts
 
@@ -27,4 +27,4 @@ covered. We have also covered subsections 8.3.1 and 8.3.2. Subsection 8.3.3. and
 
 * Be able to apply the Frobenius method, in particular for second order problems (Remarks 8.25 and 8.26). This requires that you can recognize/identify a regular singular point, and that you can derive the indicial equation. Also applying the simpler version (a Taylor series ansatz) when there is no singular point (coefficient of highest derivative is nowhere zero).
 
-* Understand how to use a Green's function, and how to construct it in the case of a second order problem with separated boundary conditions (p305 - 306, in particular eq 8.123).
+* Understand how to use a Green's function, and how to construct it in the case of a second order problem with separated boundary conditions (p300 - 301, remark 8.30).
