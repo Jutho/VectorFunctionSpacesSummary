@@ -1,7 +1,7 @@
 ---
 title: "Chapter 9 --- Fourier calculus and distributions"
 author: "Jutho Haegeman"
-date: "12/12/2023"
+date: "12/11/2025"
 ---
 
 # Summary
@@ -10,17 +10,21 @@ This chapter introduces the Fourier transform, first in the classical sense (as 
 
 # Not covered in class
 
-Subsections 9.2.11 and 9.3.5 and Section 9.4 have not been covered and do not need to be known.
+Subsections 9.2.11 and Section 9.4 have not been covered at all, whereas section 9.3 was only mentioned very briefly. None of these need to be known.
 
 # Important concepts
 
 * Fourier transform and its elementary properties, convolution, Fourier transform as unitary operator on $L^2(\mathbb{R})$, Parseval and Plancherel relation for Fourier transform
 * Fourier transform of Gaussian distribution, characteristic function
 * Test function, compact support, distribution, regular versus singular distribution, Dirac-delta distribution (and its derivatives), Heaviside function/distribution, Cauchy principal value, distributional derivative, distributional limit, distributional Fourier series and Fourier transform
+
+Not really covered this year:
+
 * Fourier transforms on different domains: discrete Fourier transform, Fourier series, discrete-time Fourier transform, (continuous-time) Fourier transform.
 * Sampling, Nyquist rate, reconstruction via sinc (Whittaker–Shannon interpolation formula).
 
 # For applications / exercises
 
-* Computing Fourier transforms using the few basic examples and a combination of their elementary properties.
-* Working with the Dirac distribution, Heaviside function, Dirac comb distribution (e.g. scaling or transforming the argument), …
+No exercises on Fourier transforms and distributions this year.
+<!-- * Computing Fourier transforms using the few basic examples and a combination of their elementary properties.
+* Working with the Dirac distribution, Heaviside function, Dirac comb distribution (e.g. scaling or transforming the argument), … -->
